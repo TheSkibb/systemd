@@ -38,7 +38,7 @@ See [reporting of security vulnerabilities](https://systemd.io/SECURITY).
 ## Posting Pull Requests
 
 * Make sure to post PRs only relative to a recent tip of the `main` branch.
-* Follow our [Coding Style](./docs/CODING_STYLE) when contributing code. This is a requirement for all code we merge.
+* Follow our [Coding Style](./CODING_STYLE) when contributing code. This is a requirement for all code we merge.
 * Please make sure to test your change before submitting the PR. See the [Hacking guide](https://systemd.io/HACKING) for details on how to do this.
 * Make sure to run the test suite locally, before posting your PR. We use a CI system, meaning we don't even look at a PR if the build fails or the unit tests don't pass.
 * If you need to update the code in an existing PR, force-push into the same branch, overriding old commits with new versions.
